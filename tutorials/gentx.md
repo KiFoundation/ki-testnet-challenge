@@ -12,7 +12,7 @@ Download and install Go v1.13.5+ )
 
 ```bash
 wget https://dl.google.com/go/go1.13.5.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.13.5.linux-amd64.tar.g
+sudo tar -C /usr/local -xzf go1.13.5.linux-amd64.tar.gz
 ```
 
 Export Go paths

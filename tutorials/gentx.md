@@ -1,4 +1,12 @@
-The first step of the KiChain testnet challenge is to initiate a new testnet from scratch. Therefore, participants are required to create the keys of their validators and to generate their genesis transactions. Following is the process of achieving this:  
+The first step of the KiChain testnet challenge is to initiate a new testnet from scratch. Therefore, participants are required to create the keys of their validators and to generate their genesis transactions.  
+
+Following are the System requirements to run a node on the KiChain testnet:
+- Ubuntu 18.04 OS or later
+- 4 Cores
+- 4GB RAM
+- 80GB SSD at least
+
+Following is the process of creating the validator keys and the genesis transaction:
 
 Download and install Go v1.13.5+ )
 

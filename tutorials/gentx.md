@@ -1,6 +1,6 @@
 The first step of the KiChain testnet challenge is to initiate a new testnet from scratch. Therefore, participants are required to create the keys of their validators and to generate their genesis transactions. Following is the process of achieving this:  
 
-Download and install Go
+Download and install Go v1.13.5+ )
 
 ```bash
 wget https://dl.google.com/go/go1.13.5.linux-amd64.tar.gz

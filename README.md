@@ -28,10 +28,10 @@ Aside from these prizes, **1 000 000 USD** of XKIs will be distributed as delega
 To participate to the testnet challenge, please follow these steps:
 1. Join the Ki Ecosystem Discord [here](https://discord.gg/D3vvEeBpE5)  
 2. Generate your validator keys by following [this tutorial](tutorials/gentx.md).
-3. Fill the registration [form]().
+3. Fill the registration [form](https://forms.gle/AxNdZQ7qeGiQfmjy7).
 4. Add your validator to the genesis:
   - rename your gentx generated in step 2 and found in `<NODE_ROOT>/kid/config/gentx/gentx-<node-id>.json` to `gentx-<moniker>.json`
-  - add it to the gentx directory in the [network repo](https://raw.githubusercontent.com/KiFoundation/ki-networks/v0.1/Testnet/kichain-t-2/gentx) by opening a Pull Request.
+  - add it to the gentx directory in the [network repo](https://github.com/KiFoundation/ki-networks/tree/v0.1/Testnet/kichain-t-2/gentx) by opening a Pull Request.
 
 ## Leader board
 

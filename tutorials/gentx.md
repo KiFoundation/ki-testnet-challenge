@@ -90,8 +90,9 @@ kid gentx \
 	--home-client ./kicli/
 ```
 
-this generates a file called `gentx-<node-id>.json` in `$NODE_ROOT/kid/config/gentx/`. Run the following commands to fetch the validator addresses needed to fill the [registration form]().
+this generates a file called `gentx-<node-id>.json` in `$NODE_ROOT/kid/config/gentx/`. Run the following commands to fetch the validator addresses needed to fill the [registration form](https://forms.gle/AxNdZQ7qeGiQfmjy7).
 
+(The following step requires `jq`. It can be installed with `sudo apt-get install jq`. You can skip installing `jq` and manually fetch the information below in the file).  
 
 Validator testnet wallet address:
 ```bash

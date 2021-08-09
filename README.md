@@ -5,8 +5,8 @@
 # Ki Testnet Challenge
 This repository hosts `ki-testnet-challenge`. A set of scripts and resources to be used for the Ki Testnet Challenge
 
-## What is it
-The Testnet Challenge consists of a series of more or less technical tasks related to the validator operator role on the KiChain. You will be invited to explore the smallest details of the KiChain. During the course of the challenge, the tasks get progressively more difficult, they range from “do it whenever/however you want” tasks to “be ready to spend few hours on this one” tasks.
+## What is the testnet challenge
+The Testnet Challenge consists of a series of more or less technical tasks related to the validator operator role on the KiChain. During the course of the challenge, the tasks get progressively more difficult, they range from “do it whenever/however you want” tasks to “be ready to spend few hours on this one” tasks.
 
 To know more about the challenge read the dedicated post [here](https://medium.com/ki-foundation/announcing-the-kichain-challenge-incentivized-testnet-420006b48535)
 

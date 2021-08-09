@@ -111,3 +111,6 @@ Validator testnet operator address:
 ```bash
 cat $NODE_ROOT/kid/config/gentx/gentx-<node-id>.json | jq .value.msg[0].value.validator_address
 ```
+
+
+Note: Another information found in the gentx file is the node address `"memo":"node_id@ip:port"`. This is the address used by other peers to connect to your node. Depending on your server setup, the IP added in the file by the gentx command can be a private one (thus unusable). If this is the case, please change it manually to the public IP of your node (change only the IP). 

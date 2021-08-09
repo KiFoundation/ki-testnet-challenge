@@ -93,7 +93,7 @@ kid gentx \
 	--min-self-delegation=1 \
 	--amount=100000000utki \
 	--pubkey `kid tendermint show-validator --home ./kid/` \
-	--name=<wallet-name>\
+	--name=<wallet-name> \
 	--home ./kid/ \
 	--home-client ./kicli/
 ```

@@ -54,7 +54,7 @@ client_name: kicli
 version: 0.1-13-g711e19e-Testnet
 commit: 711e19ebbb516ae6d38c638634c4bef05201be72
 build_tags: netgo,ledger
-go: go version go1.16 linux/amd64
+go: go version go1.13.5 linux/amd64
 ```
 
 Create node directories:  

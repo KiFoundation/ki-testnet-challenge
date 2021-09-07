@@ -1,0 +1,6 @@
+{
+   "moniker": "validator555",
+   "documentationURL": "https://github.com/dronlebedev/relayer-ibc/blob/main/readme.md",
+   "ibcTransferTxHashs": ["a list of your first 5 ibc transaction"],
+   "additionalComments": "Any adittional comments you would like to add about your contribution"
+}

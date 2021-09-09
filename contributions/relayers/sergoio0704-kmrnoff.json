@@ -1,0 +1,6 @@
+{
+   "moniker": "kmrnoff",
+   "documentationURL": "https://github.com/sergoio0704/IBC-transfers-KiChain/blob/main/README.md",
+   "ibcTransferTxHashs": ["DFB0513A8366A61DB1F572742C4736E50FB6E89C8ED5BEDDDD1EF2FBC3A4A524", "F9200B7AFC403B9534EDB8BCA45A73F80A3A2C90DAE16C54A3278AA74ED38132", "772C830B9AAF9F6DB8626E505D040F996E3F9DEEE77B01223074F10B8985A264", "B0988D7419B452E4D351AE68F0E1CDAE4B4F54342D5D98E7EEB1F375C5CDB9F2", "FDF2C645D59D9C469F8A5C8D342B721C8CF1D533BAC6621288F92CE0B881E809"],
+   "additionalComments": "I really enjoyed exploring and dissecting this challenging challenge! Many thanks to the kitchen team for this experience! It was not easy to write the documentation)"
+}

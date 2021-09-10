@@ -1,6 +1,9 @@
 {
    "moniker": "cygnus",
-   "documentationURL": "https://gist.github.com/thecodesdev/3e59019d18bf37a03f1b03eb27cff87b",
+   "documentationURL": [
+      "https://gist.github.com/thecodesdev/3e59019d18bf37a03f1b03eb27cff87b",
+      "https://github.com/thecodesdev/ki-testnet-challenge/blob/main/contributions/relayers/README.md"
+   ],
    "ibcTransferTxHashs": [
       "DF56308EAC9750355C7AA3CD44987A250F6A21ECA91E3E549E899A3B7DC54EE4",
       "AD5E469535A7599B0CA411985A4F6D1F6715DE1D16315E1B7A72A80ABA34A518",

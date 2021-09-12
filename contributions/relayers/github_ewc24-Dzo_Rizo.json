@@ -1,0 +1,23 @@
+{
+"Dzo_Rizo": "Dzo_Rizo",
+"ibcTransferTxHashs": ["I[2021-09-12|21:43:59.399] ✔ [umee-betanet-1]@{287907} - msg(0:transfer) hash(CB1F61E0DAD42F1E7989290EF4A065F2844F6EBD70670C7BF62D0DAF29AB46A1)
+root@ubuntu-4gb-fsn1-3:~# rly tx transfer umee-betanet-1 kichain-t-4 1000000uumee tki195j37vsjzanz9xrmyat9kh4ql224yjt5pnkuqd --path ibc
+I[2021-09-12|21:44:06.009] ✔ [umee-betanet-1]@{287908} - msg(0:transfer) hash(FEC265DEF38FB53D81A64084090F36B71C65641B107970EAD43835C47598CBB6)
+root@ubuntu-4gb-fsn1-3:~# rly tx transfer umee-betanet-1 kichain-t-4 1000000uumee tki195j37vsjzanz9xrmyat9kh4ql224yjt5pnkuqd --path ibc
+I[2021-09-12|21:44:12.059] ✔ [umee-betanet-1]@{287909} - msg(0:transfer) hash(A9790ED695A54D3C3113D35633042CFED5F85EA151ECCB228A9CA097DC577A27)
+root@ubuntu-4gb-fsn1-3:~# rly tx transfer umee-betanet-1 kichain-t-4 1000000uumee tki195j37vsjzanz9xrmyat9kh4ql224yjt5pnkuqd --path ibc
+I[2021-09-12|21:44:18.420] ✔ [umee-betanet-1]@{287910} - msg(0:transfer) hash(1E8F00FCDAA40ECBCDA7C60D5E149AEA7E2D1ADBA35034B75FB5677395ACB27A)
+
+
+
+
+root@ubuntu-4gb-fsn1-3:~# rly tx transfer kichain-t-4 umee-betanet-1 1000000utki umee1t2zya0nygakk3fjzq4c352tap4fr5yepp89lqu --path ibc
+I[2021-09-12|21:46:16.767] ✔ [kichain-t-4]@{301926} - msg(0:transfer) hash(5D60247002390A526BC31D36E051CF724AB5769F788D72A8A8600AB122849C28)
+root@ubuntu-4gb-fsn1-3:~# rly tx transfer kichain-t-4 umee-betanet-1 1000000utki umee1t2zya0nygakk3fjzq4c352tap4fr5yepp89lqu --path ibc
+I[2021-09-12|21:46:23.191] ✔ [kichain-t-4]@{301927} - msg(0:transfer) hash(EE8631CBB30B5F4EA4A6B71CE86FF786F138007EB95101CAD3A2613466D03FE6)
+root@ubuntu-4gb-fsn1-3:~# rly tx transfer kichain-t-4 umee-betanet-1 1000000utki umee1t2zya0nygakk3fjzq4c352tap4fr5yepp89lqu --path ibc
+I[2021-09-12|21:46:29.184] ✔ [kichain-t-4]@{301928} - msg(0:transfer) hash(7EDC1EE31D7D835C2431C34ADF041045160939572A1A765D6956B88FF2439B03)
+root@ubuntu-4gb-fsn1-3:~# rly tx transfer kichain-t-4 umee-betanet-1 1000000utki umee1t2zya0nygakk3fjzq4c352tap4fr5yepp89lqu --path ibc
+I[2021-09-12|21:46:35.242] ✔ [kichain-t-4]@{301929} - msg(0:transfer) hash(786527C367C3564E7A21CD01CB351BAEA3E79678F8623EB7C1492BB474AE291B)"],
+"IAbove are the commands from the Ume network to the Kichain network and back"
+}

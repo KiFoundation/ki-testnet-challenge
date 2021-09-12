@@ -95,7 +95,7 @@ rly keys add kichain-t-4 <YOUR_KICHAI_WALLET_NAME>
 ```
 >⚠️ Save mnemonics for wallets!
 
->In the examples I will use the following wallets:<br/>
+>In the examples will use the following wallets:<br/>
 >Nane = `Miliwatt-rly-um`, address= `umee1ymx74ypkktunu59ks00jaw5cd66nwv0khzlgnr`<br/>
 >Nane = `Miliwatt-rly-ki`, address= `tki1e7vtgqh63u8vll45jan98lxx72pfgs59wm9azx`
 
@@ -193,7 +193,7 @@ Compare the balance on the wallets with the previous values
 rly q balance umee-betanet-1
 rly q balance kichain-t-4
 ```
->Hash details for a transaction through the Umiya network can be viewed on the following path in the explorer
+>Hash details for a transaction through the Umee network can be viewed on the following path in the explorer
 >```
 >https://explorer-umee.nodes.guru/transactions/<hash>
 >```
@@ -217,7 +217,7 @@ rly q balance kichain-t-4
 >`root@vmi653640:~# rly q balance kichain-t-4` <br/>
 >`11332transfer/channel-61/uumee,10058468utki` <br/>
   
->Hash details for a transaction through the Umiya network can be viewed on the following path in the explorer
+>Hash details for a transaction through the KiChain network can be viewed on the following path in the explorer
 >```
 >https://api-challenge.blockchain.ki/txs/<hash>
 >```
@@ -235,7 +235,7 @@ rly paths show transfer
 >An example for our wallet:<br/>
 >`kid tx ibc-transfer transfer transfer channel-61 umee1ymx74ypkktunu59ks00jaw5cd66nwv0khzlgnr 10000utki --from $kichain_wallet_name --fees=1000utki --gas=auto --chain-id kichain-t-4 --home /root/testnet/kid/ -y`
 
->Hash details for a transaction through the Umiya network can be viewed on the following path in the explorer
+>Hash details for a transaction through the KiChain network can be viewed on the following path in the explorer
 >```
 >https://api-challenge.blockchain.ki/txs/<hash>
 >```

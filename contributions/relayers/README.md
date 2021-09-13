@@ -1,38 +1,110 @@
-<p align="right">
-    <img width=150px src="https://wallet-testnet.blockchain.ki/static/img/icons/ki-chain.png" />
-</p>
+Relayer Info
+
+I am using go-relayer, if you want you can use typescript or rust relayer.
+
+Installation
+
+git clone https://github.com/cosmos/relayer.git
+cd relayer
+git checkout v0.9.3
+make install
+
+Setup
+
+Initiate the relayer
+
+rly config init
 
 
-This directory hosts the contributions for the IBC relayer Task.
+Note: Above command will create relayer folder in home directory with default config.yaml file
 
-## Task instructions:
+Go to cd ~/.relayer/config & add both chains configuration.
 
-To accomplish the this task, the following steps need to be performed:
-- Start a relayer
-- Perform multiple cross chain Txs
-- Publish technical documentations (Medium or Github Readme):
-    - Used relayer client (Version, repo, …)
-    - Installation instruction (specs and requirements)
-    - Configurations (timeouts, paths, chains, … )
-    - Channels
-    - Instructions to send a cross chain transaction
-    - hash of the performed Transactions  
-- Maintain the relayer until the end of the challenge
+Chain – 1
+Create json file with chain 1 configurations.
 
-Contributions should be submitted to the ki-testnet-challenge repo under the following directory:
-https://github.com/KiFoundation/ki-testnet-challenge/tree/main/contributions/relayers
-
-The PR submission deadline is:  `Monday 6th of September at 23:59UTC`.
-
-Please note that any PR made after the deadline or in the wrong directory will be automatically rejected.
-
-
-File `<github_username>-<moniker>.json` (do not forget to replace `<github_username>` with you github username and  `<moniker>` with your validator moniker):
-```
+ 	nano  kichain-t-4.json
 {
-   "moniker": "Your validator moniker goes here",
-   "documentationURL": "The link to your Readme or Medium post",
-   "ibcTransferTxHashs": ["a list of your first 5 ibc transaction"],
-   "additionalComments": "Any adittional comments you would like to add about your contribution"
+  "chain-id": "kichain-t-4",
+  "rpc-addr": "http://xxx.x.x.x:26657",
+  "account-prefix": "tki",
+  "gas-adjustment": 1.5,
+  "gas-prices": "0.025utki",
+  "trusting-period": "48h",
+  "key": "wallet_name"
 }
-```
+rly chains add -f  kichain-t-4.json
+
+Chain -2 
+Create json file with chain21 configurations.
+
+ 	nano  autonomy.json
+{
+  "chain-id": "autonomy",
+  "rpc-addr": "http://20.42.119.7:26657",
+  "account-prefix": "autonomy",
+  "gas-adjustment": 1.5,
+  "gas-prices": "1aut",
+  "trusting-period": "336h",
+  "key": "testkey"
+}
+rly chains add -f  autonomy.json
+
+
+Check chains status
+rly chains list
+
+
+Adding keys
+Note: you can use same mnemonic phrase used in Ki chain, for both Ki chain and autonomy chain.
+
+Adding ki test net keys to relayer
+rly keys restore kichain-t-4  testkey "mnemonic phrase"
+
+Adding autonomy keys to relayer
+you can use ki seed to recover autonomy key through relayer.
+rly keys restore autonomy  testkey "mnemonic phrase"
+
+Query balance
+To verify configuration properly you can use account query in both chains
+rly q bal kichain-t-4  testkey
+
+You can get the test tokens for autonomy
+
+curl --header "Content-Type: application/json"   --request POST   --data '{"denom":"aut","address":"autonomy1jlqavmq6lrz2s7rrpjh0epepdzgak384zzf5xj"}'   http://20.42.119.7:8000/credit
+
+rly q bal autonomy  testkey
+
+Init lightclients
+
+rly light init kichain-t-4 -f
+rly light init autonomy -f
+
+Now check the chain status
+
+rly chains list     
+Path generation
+
+rly paths gen kichain-t-4 autonomy <path>
+Link the both chains
+
+rly tx link <path> -d
+
+Note: This will create client, connection, channels between two chains.
+
+Start Relayer
+
+rly start <path>
+IBC Transactions:
+
+from kichain to autonomy
+
+rly tx  xfer kichain-t-4 autonomy 1utki <reciver-autonomy-address> --path kitoatn -d
+
+from autonomy to kichains
+
+rly tx xfer autonomy kichain-t-4  1aut tki1ghzd9t0zj23ssew7zv8sg97l9xakh8r8nxmr4l  --path kitoatn -d
+ 
+
+
+Transaction hash will be generated.

@@ -1,0 +1,6 @@
+{
+   "moniker": "sashamaxymchuk",
+   "documentationURL": "https://github.com/sashamaxymchuk/kichain-ibc-challenge/blob/main/README.md",
+   "ibcTransferTxHashs": ["9CDBB99C1C68892F9388AD5937AC54F3C66C2154BA6215153197F8FEE19D49D4, CB0B57B0167F7DBCC2437C767056CDCDEA74FB774D7AB560FF9A1FCC02D238A0, F8B404F8C6CA1CC1229284E59C111243994CD69482468B706CFBB79C8DC1D633, E893D55F7A8B395BB870E95A8858C419F1CA0066DCAA5C3BF0FADF6D0E8768AA, 08CF2E72F96CEB975A9110E0126F745DA1C8ED97A33DBAC1F18F987CD8001016"],
+   "additionalComments": "I've sent OSMO tokens to different individuals in cygnusx-osmo-1 chain to help them run relayer whith this chain. My address https://osmosis-explorer.cygnusx-1.publicawesome.dev/account/osmo1td34dkdap495989umu7de44uazfspd4vc2t2y7"
+}

@@ -1,0 +1,6 @@
+{
+   "moniker": "nullmames",
+   "documentationURL": "https://gist.github.com/nullmames/48141172cdbc20b1005d7d5b85c12b04",
+   "ibcTransferTxHashs": ["D9C28388F50A50EC3827564C03879DFD554329FB0E317CA948A0E6F10CC79E3B,8DFB2337F09D1830772358DD115B71A8547DA2E0A47C456FF448C1C6007D7536,89056DC299FF717555CB24733FA1BB20585274A0A9088244DF22DCA91A66C44E,241EEA2C42AEC6EB008A1BC967DB31654D9C082809485FBBE15C4B26889AE7B9,79D6F5F8655A155C0DCDD7B5311E42CA950952824955FC84435C3E2B37237DC9"],
+   "additionalComments": "For this challenge i have thoroughly documented the use of hermes for relaying to kichain-t-4. The documentation is formatted, easy to read and was written in such a way that most anyone should be able to recreate the relayer for them selves. I have also created another seto of documentation using raw transactions to create the channels, although this was discontinued once it was discovered that IBC was not enabled on kichain-t-3 https://gist.github.com/nullmames/00d40ed9c015a2588bae55a57598af7e"
+}
